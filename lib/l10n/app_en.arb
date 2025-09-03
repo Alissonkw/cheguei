@@ -1,0 +1,195 @@
+{
+  "@@locale": "en",
+  "appTitle": "To Chegando Delivery Partners",
+  "@appTitle": {
+    "description": "Application title"
+  },
+  "welcome": "Welcome",
+  "@welcome": {
+    "description": "Welcome message"
+  },
+  "login": "Login",
+  "@login": {
+    "description": "Login button"
+  },
+  "email": "Email",
+  "@email": {
+    "description": "Email field"
+  },
+  "password": "Password",
+  "@password": {
+    "description": "Password field"
+  },
+  "forgotPassword": "Forgot Password",
+  "@forgotPassword": {
+    "description": "Forgot password link"
+  },
+  "signIn": "Sign In",
+  "@signIn": {
+    "description": "Sign in button"
+  },
+  "dashboard": "Dashboard",
+  "@dashboard": {
+    "description": "Main screen"
+  },
+  "orders": "Orders",
+  "@orders": {
+    "description": "Orders section"
+  },
+  "profile": "Profile",
+  "@profile": {
+    "description": "User profile"
+  },
+  "settings": "Settings",
+  "@settings": {
+    "description": "App settings"
+  },
+  "logout": "Logout",
+  "@logout": {
+    "description": "Logout button"
+  },
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Cancel button"
+  },
+  "confirm": "Confirm",
+  "@confirm": {
+    "description": "Confirm button"
+  },
+  "save": "Save",
+  "@save": {
+    "description": "Save button"
+  },
+  "delete": "Delete",
+  "@delete": {
+    "description": "Delete button"
+  },
+  "edit": "Edit",
+  "@edit": {
+    "description": "Edit button"
+  },
+  "add": "Add",
+  "@add": {
+    "description": "Add button"
+  },
+  "search": "Search",
+  "@search": {
+    "description": "Search field"
+  },
+  "noDataFound": "No data found",
+  "@noDataFound": {
+    "description": "Message when no data is available"
+  },
+  "loading": "Loading...",
+  "@loading": {
+    "description": "Loading message"
+  },
+  "error": "Error",
+  "@error": {
+    "description": "Error message"
+  },
+  "success": "Success",
+  "@success": {
+    "description": "Success message"
+  },
+  "warning": "Warning",
+  "@warning": {
+    "description": "Warning message"
+  },
+  "info": "Information",
+  "@info": {
+    "description": "Information message"
+  },
+  "yes": "Yes",
+  "@yes": {
+    "description": "Affirmative answer"
+  },
+  "no": "No",
+  "@no": {
+    "description": "Negative answer"
+  },
+  "ok": "OK",
+  "@ok": {
+    "description": "OK button"
+  },
+  "close": "Close",
+  "@close": {
+    "description": "Close button"
+  },
+  "back": "Back",
+  "@back": {
+    "description": "Back button"
+  },
+  "next": "Next",
+  "@next": {
+    "description": "Next button"
+  },
+  "previous": "Previous",
+  "@previous": {
+    "description": "Previous button"
+  },
+  "home": "Home",
+  "@home": {
+    "description": "Home screen"
+  },
+  "menu": "Menu",
+  "@menu": {
+    "description": "Main menu"
+  },
+  "notifications": "Notifications",
+  "@notifications": {
+    "description": "Notifications section"
+  },
+  "wallet": "Wallet",
+  "@wallet": {
+    "description": "Digital wallet"
+  },
+  "earnings": "Earnings",
+  "@earnings": {
+    "description": "Earnings section"
+  },
+  "reports": "Reports",
+  "@reports": {
+    "description": "Reports section"
+  },
+  "support": "Support",
+  "@support": {
+    "description": "Customer support"
+  },
+  "language": "Language",
+  "@language": {
+    "description": "Language setting"
+  },
+  "theme": "Theme",
+  "@theme": {
+    "description": "Theme setting"
+  },
+  "darkMode": "Dark Mode",
+  "@darkMode": {
+    "description": "Dark mode"
+  },
+  "lightMode": "Light Mode",
+  "@lightMode": {
+    "description": "Light mode"
+  },
+  "connected": "Connected",
+  "@connected": {
+    "description": "Connection status"
+  },
+  "noConnection": "No internet connection",
+  "@noConnection": {
+    "description": "No connection message"
+  },
+  "retry": "Retry",
+  "@retry": {
+    "description": "Retry button"
+  },
+  "refresh": "Refresh",
+  "@refresh": {
+    "description": "Refresh button"
+  },
+  "suffixName": "Partners",
+  "@suffixName": {
+    "description": "App name suffix"
+  }
+}

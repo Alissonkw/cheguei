@@ -1,0 +1,195 @@
+{
+  "@@locale": "pt",
+  "appTitle": "To Chegando Delivery Parceiros",
+  "@appTitle": {
+    "description": "Título do aplicativo"
+  },
+  "welcome": "Bem-vindo",
+  "@welcome": {
+    "description": "Mensagem de boas-vindas"
+  },
+  "login": "Entrar",
+  "@login": {
+    "description": "Botão de login"
+  },
+  "email": "E-mail",
+  "@email": {
+    "description": "Campo de e-mail"
+  },
+  "password": "Senha",
+  "@password": {
+    "description": "Campo de senha"
+  },
+  "forgotPassword": "Esqueci minha senha",
+  "@forgotPassword": {
+    "description": "Link para recuperar senha"
+  },
+  "signIn": "Fazer Login",
+  "@signIn": {
+    "description": "Botão de fazer login"
+  },
+  "dashboard": "Painel",
+  "@dashboard": {
+    "description": "Tela principal"
+  },
+  "orders": "Pedidos",
+  "@orders": {
+    "description": "Seção de pedidos"
+  },
+  "profile": "Perfil",
+  "@profile": {
+    "description": "Perfil do usuário"
+  },
+  "settings": "Configurações",
+  "@settings": {
+    "description": "Configurações do app"
+  },
+  "logout": "Sair",
+  "@logout": {
+    "description": "Botão de logout"
+  },
+  "cancel": "Cancelar",
+  "@cancel": {
+    "description": "Botão cancelar"
+  },
+  "confirm": "Confirmar",
+  "@confirm": {
+    "description": "Botão confirmar"
+  },
+  "save": "Salvar",
+  "@save": {
+    "description": "Botão salvar"
+  },
+  "delete": "Excluir",
+  "@delete": {
+    "description": "Botão excluir"
+  },
+  "edit": "Editar",
+  "@edit": {
+    "description": "Botão editar"
+  },
+  "add": "Adicionar",
+  "@add": {
+    "description": "Botão adicionar"
+  },
+  "search": "Pesquisar",
+  "@search": {
+    "description": "Campo de pesquisa"
+  },
+  "noDataFound": "Nenhum dado encontrado",
+  "@noDataFound": {
+    "description": "Mensagem quando não há dados"
+  },
+  "loading": "Carregando...",
+  "@loading": {
+    "description": "Mensagem de carregamento"
+  },
+  "error": "Erro",
+  "@error": {
+    "description": "Mensagem de erro"
+  },
+  "success": "Sucesso",
+  "@success": {
+    "description": "Mensagem de sucesso"
+  },
+  "warning": "Aviso",
+  "@warning": {
+    "description": "Mensagem de aviso"
+  },
+  "info": "Informação",
+  "@info": {
+    "description": "Mensagem informativa"
+  },
+  "yes": "Sim",
+  "@yes": {
+    "description": "Resposta afirmativa"
+  },
+  "no": "Não",
+  "@no": {
+    "description": "Resposta negativa"
+  },
+  "ok": "OK",
+  "@ok": {
+    "description": "Botão OK"
+  },
+  "close": "Fechar",
+  "@close": {
+    "description": "Botão fechar"
+  },
+  "back": "Voltar",
+  "@back": {
+    "description": "Botão voltar"
+  },
+  "next": "Próximo",
+  "@next": {
+    "description": "Botão próximo"
+  },
+  "previous": "Anterior",
+  "@previous": {
+    "description": "Botão anterior"
+  },
+  "home": "Início",
+  "@home": {
+    "description": "Tela inicial"
+  },
+  "menu": "Menu",
+  "@menu": {
+    "description": "Menu principal"
+  },
+  "notifications": "Notificações",
+  "@notifications": {
+    "description": "Seção de notificações"
+  },
+  "wallet": "Carteira",
+  "@wallet": {
+    "description": "Carteira digital"
+  },
+  "earnings": "Ganhos",
+  "@earnings": {
+    "description": "Seção de ganhos"
+  },
+  "reports": "Relatórios",
+  "@reports": {
+    "description": "Seção de relatórios"
+  },
+  "support": "Suporte",
+  "@support": {
+    "description": "Suporte ao cliente"
+  },
+  "language": "Idioma",
+  "@language": {
+    "description": "Configuração de idioma"
+  },
+  "theme": "Tema",
+  "@theme": {
+    "description": "Configuração de tema"
+  },
+  "darkMode": "Modo Escuro",
+  "@darkMode": {
+    "description": "Modo escuro"
+  },
+  "lightMode": "Modo Claro",
+  "@lightMode": {
+    "description": "Modo claro"
+  },
+  "connected": "Conectado",
+  "@connected": {
+    "description": "Status de conexão"
+  },
+  "noConnection": "Sem conexão com a internet",
+  "@noConnection": {
+    "description": "Mensagem de falta de conexão"
+  },
+  "retry": "Tentar novamente",
+  "@retry": {
+    "description": "Botão para tentar novamente"
+  },
+  "refresh": "Atualizar",
+  "@refresh": {
+    "description": "Botão atualizar"
+  },
+  "suffixName": "Parceiros",
+  "@suffixName": {
+    "description": "Sufixo do nome do app"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "993917439740",
+    "project_id": "entregarapida-6f93b",
+    "storage_bucket": "entregarapida-6f93b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:993917439740:android:abcda9337b506a5210d179",
+        "android_client_info": {
+          "package_name": "com.tochegando.parceiros"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrWpwIhBjaJ93dJe_OF9HPzfxIiek50Is"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
