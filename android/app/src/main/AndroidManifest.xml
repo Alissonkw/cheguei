@@ -38,7 +38,7 @@
         </queries>
 
         <application
-            android:label="To Chegando Delivery Parceiros"
+            android:label="@string/app_name"
             android:name="${applicationName}"
             android:extractNativeLibs="true"
             android:requestLegacyExternalStorage="true"

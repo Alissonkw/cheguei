@@ -34,7 +34,11 @@ Future<void> main() async {
   Map<String, Map<String, String>> languages = await di.init();
 
   // Firebase será configurado via google-services.json
-  await Firebase.initializeApp();
+  try {
+    await Firebase.initializeApp();
+  } catch (e) {
+    debugPrint('Firebase initialization error: $e');
+  }
 
   NotificationBodyModel? body;
   try {

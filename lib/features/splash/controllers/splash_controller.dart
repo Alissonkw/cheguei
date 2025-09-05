@@ -57,9 +57,14 @@ class SplashController extends GetxController implements GetxService {
 
   bool isRestaurantClosed() {
     try {
+      // Verificar se configModel existe
+      if (_configModel == null) {
+        return false;
+      }
+      
       // Usar horários padrão se não houver configuração específica
-      String openTimeStr = _configModel?.businessPlan?.openingTime ?? '00:00';
-      String closeTimeStr = _configModel?.businessPlan?.closingTime ?? '23:59';
+      String openTimeStr = '00:00';
+      String closeTimeStr = '23:59';
       
       DateTime open = DateFormat('HH:mm').parse(openTimeStr);
       DateTime close = DateFormat('HH:mm').parse(closeTimeStr);
