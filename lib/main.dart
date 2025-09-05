@@ -16,7 +16,6 @@ import 'package:tochegando_delivery_parceiros/helper/route_helper.dart';
 import 'package:tochegando_delivery_parceiros/theme/dark_theme.dart';
 import 'package:tochegando_delivery_parceiros/theme/light_theme.dart';
 import 'package:tochegando_delivery_parceiros/util/messages.dart';
-import 'package:tochegando_delivery_parceiros/features/home/widgets/trial_widget.dart';
 import 'package:tochegando_delivery_parceiros/features/language/controllers/language_controller.dart';
 import 'package:tochegando_delivery_parceiros/common/controllers/theme_controller.dart';
 import 'package:tochegando_delivery_parceiros/features/notification/domain/models/notification_body_model.dart';
@@ -112,19 +111,7 @@ class MyApp extends StatelessWidget {
                 child: Stack(children: [
                   widget!,
 
-                  GetBuilder<ProfileController>(builder: (profileController) {
-                    bool canShow = profileController.profileModel != null && profileController.profileModel!.subscription != null
-                        && profileController.profileModel!.subscription!.isTrial == 1 && profileController.profileModel!.subscription!.status == 1
-                        && DateConverterHelper.differenceInDaysIgnoringTime(DateTime.parse(profileController.profileModel!.subscription!.expiryDate!), null) > 0;
-
-                    return canShow && !profileController.trialWidgetNotShow ? Align(
-                      alignment: Alignment.bottomRight,
-                      child: Padding(
-                        padding: const EdgeInsets.only(bottom: 90),
-                        child: TrialWidget(subscription: profileController.profileModel!.subscription!),
-                      ),
-                    ) : const SizedBox();
-                  }),
+                  // TrialWidget removido para evitar travamento
 
                 ]),
               ),
