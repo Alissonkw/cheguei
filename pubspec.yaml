@@ -1,61 +1,42 @@
 name: tochegando_delivery_parceiros
 description: Aplicativo To Chegando Delivery Parceiros
-publish_to: "none" # não publicar no pub.dev
+publish_to: "none"
 
 version: 1.0.0+1
 
 environment:
   sdk: ">=3.4.0 <4.0.0"
-  flutter: ">=3.22.0"
 
 dependencies:
   flutter:
     sdk: flutter
 
-  # Internacionalização (fixo pelo Flutter SDK)
+  # Suporte a internacionalização e traduções
   flutter_localizations:
     sdk: flutter
+
   intl: ^0.20.2
 
-  # Gerenciamento de estado
+  # Pacote atualizado do Syncfusion que suporta intl 0.20.x
+  syncfusion_flutter_datepicker: ^31.1.17
+
+  # Outras dependências do projeto
+  cupertino_icons: ^1.0.8
+  http: ^1.2.2
+  shared_preferences: ^2.3.2
   provider: ^6.1.2
   get: ^4.6.6
-
-  # HTTP e APIs
-  http: ^1.2.2
-  dio: ^5.7.0
-
-  # Banco de dados local
-  shared_preferences: ^2.2.3
-  hive: ^2.2.3
-  hive_flutter: ^1.1.0
-
-  # Firebase (ajuste se usar Firebase no seu app)
   firebase_core: ^3.6.0
-  firebase_auth: ^5.3.1
-  cloud_firestore: ^5.4.4
-  firebase_messaging: ^15.1.3
-
-  # Notificações locais
-  flutter_local_notifications: ^17.2.1
-
-  # Pacotes de UI
-  google_fonts: ^6.2.1
-  cupertino_icons: ^1.0.8
-  image_picker: ^1.1.2
-
-  # Syncfusion atualizado (compatível com intl 0.20.2)
-  syncfusion_flutter_datepicker: ^31.1.17
+  firebase_messaging: ^15.0.3
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^4.0.0
-  hive_generator: ^2.0.1
-  build_runner: ^2.4.12
 
 flutter:
   uses-material-design: true
+  generate: true  # 👈 Corrige o erro do app_localizations
 
   assets:
     - assets/images/
@@ -67,4 +48,3 @@ flutter:
         - asset: assets/fonts/Poppins-Regular.ttf
         - asset: assets/fonts/Poppins-Bold.ttf
           weight: 700
-
